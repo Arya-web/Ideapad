@@ -1,0 +1,25 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-btn{
+    border: 1px solid white;
+    background-color: #427f93;
+}
+
+.search-btn:hover{
+    border: 1px solid white;
+    background-color: #27677c !important;
+}
+.search-btn:active{
+    border: 1px solid white;
+    background-color: #27677c !important;
+}
+.search-btn:focus{
+    border: 1px solid white;
+    background-color: #27677c !important;
+}
+
+.nav-elem{
+    background-color: #427f93 !important;
+}

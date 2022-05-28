@@ -1,0 +1,61 @@
+.home-bg {
+  height: 91vh;
+  background-image: url("../../assets/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.landing-text {
+  position: absolute;
+}
+
+.landing-text h1 p{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+@media (max-width: 480px) {
+  .home-bg {
+      height: 91.5vh;
+      background-position: -280px;
+  }
+  .landing-text {
+    top: 40%;
+    left: 20%;
+  }
+  .landing-text h1 {
+    font-size: 60px;
+  }
+  .landing-text p{
+      font-size: 22px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .home-bg{
+    height: 83vh;
+  }
+  .landing-text {
+    top: 40%;
+    left: 30%;
+  }
+  .landing-text h1 {
+    font-size: 80px;
+  }
+  .landing-text p{
+      font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .landing-text {
+    top: 40%;
+    left: 36%;
+  }
+  .landing-text h1 {
+    font-size: 100px;
+  }
+  .landing-text p{
+      font-size: 25px;
+  }
+}

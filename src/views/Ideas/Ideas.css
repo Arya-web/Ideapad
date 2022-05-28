@@ -1,0 +1,17 @@
+.create-btn{
+    border: 1px solid white;
+    background-color: #427f93;
+}
+
+.create-btn:hover{
+    border: 1px solid white;
+    background-color: #27677c !important;
+}
+.create-btn:active{
+    border: 1px solid white;
+    background-color: #27677c !important;
+}
+.create-btn:focus{
+    border: 1px solid white;
+    background-color: #27677c !important;
+}
